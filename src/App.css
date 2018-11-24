@@ -1,28 +1,51 @@
-.App {
-  text-align: center;
+.background {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.phone {
+  background-image: url("/img/phone.jpg") !important;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.vinyl {
+  background-image: url("/img/vinyl.jpg") !important;
 }
 
-.App-title {
-  font-size: 1.5em;
+.wood {
+  background-image: url("/img/wood.jpg") !important;
 }
 
-.App-intro {
-  font-size: large;
+.first {
+  min-height: 80vh;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.section {
+  padding: 10em 4em !important;
+}
+
+.nav {
+  border: none !important;
+}
+
+.section_header {
+  padding-bottom: 2em !important;
+}
+
+.bottom_card, .bottom_link {
+  padding: 2em;
+  background-color: #ffffff !important;
+}
+
+.bottom_card {
+  min-height: 200px;
+  padding-bottom: 0px;
+}
+
+.bottom_link {
+  padding-top: 0px;
+  font-weight: 600;
+}
+
+.footer {
+  padding: 1em !important;
 }
