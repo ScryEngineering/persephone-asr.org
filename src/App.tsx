@@ -113,7 +113,7 @@ class App extends React.Component {
           </Grid>
         </Segment>
         <Segment vertical={true} className="footer">
-          <Grid>
+          <Grid stackable={true}>
             <Grid.Column floated="left" width="8" textAlign="left">
               &copy; 2018 The Persephone Authors
             </Grid.Column>
