@@ -2,5 +2,5 @@
      User Global Variables
 *******************************/
 
-@headerFont : 'Roboto', serif;
-@pageFont: 'Lato', serif;
+@headerFont : 'Roboto', sans-serif;
+@pageFont: 'Lato', sans-serif;
