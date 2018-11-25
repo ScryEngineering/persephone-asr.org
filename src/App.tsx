@@ -86,8 +86,14 @@ class App extends React.Component {
         <Segment vertical={true} textAlign="center" className="section">
           <Container className="section_container">
             <Header as="h2" className="section_header">Get started in five minutes</Header>
-            <Container text={true}>
-              <p>Lorem ipsum.</p>
+            <Container text={true} textAlign="left">
+              <p>You can automatically deploy the Persephone web stack including the web API and web frontend by using <span className="inline_code"><a href="https://www.docker.com/">docker</a></span> and <span className="inline_code"><a href="https://docs.docker.com/compose/">docker-compose</a></span> which runs the various required <span className="inline_code">docker</span> images.</p>
+              <p>Begin by installing <span className="inline_code">docker-compose</span> as in the <span className="inline_code"><a href="https://docs.docker.com/compose/install/">official install instructions</a></span>. Because the <span className="inline_code">docker</span>-compose.yml file specifies compose file format <span className="inline_code">3.0</span> you will need to have at least <span className="inline_code">docker</span> engine <span className="inline_code">1.13.0</span> or higher.</p>
+              <p>Once you have docker and <span className="inline_code">docker-compose</span> installed, clone the <a href="https://github.com/aapeliv/persephone-docker">persephone-docker</a> repository. With the following commands:</p>
+              <p className="code_block">git clone git@github.com:aapeliv/persephone-docker.git<br />cd persephone-docker</p>
+              <p>Now run the docker containers with the following command:</p>
+              <p className="code_block">docker-compose up</p>
+              <p>The Persephone frontend should now be running at <a href="http://127.0.0.1:8000/">http://127.0.0.1:8000/</a>.</p>
             </Container>
           </Container>
         </Segment>

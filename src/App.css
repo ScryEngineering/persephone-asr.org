@@ -94,3 +94,18 @@
     visibility: initial;
   }
 }
+
+.inline_code, .code_block {
+  background-color: #34333817;
+  border-radius: 3px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 90%;
+}
+
+.inline_code {
+  padding: 2px 4px;
+}
+
+.code_block {
+  padding: 4px 8px;
+}
