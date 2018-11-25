@@ -1,0 +1,111 @@
+.background {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.phone {
+  background-image: url("/img/phone-s.jpg") !important;
+}
+
+.vinyl {
+  background-image: url("/img/vinyl-s.jpg") !important;
+}
+
+.wood {
+  background-image: url("/img/wood-s.jpg") !important;
+}
+
+.first {
+  min-height: 80vh;
+}
+
+.section_container {
+  max-width: 1200px;
+}
+
+.nav {
+  border: none !important;
+}
+
+.section_header {
+  padding-bottom: 2em !important;
+}
+
+.bottom_card, .bottom_link {
+  padding: 2em;
+  background-color: #ffffff !important;
+}
+
+.bottom_card {
+  min-height: 200px;
+  padding-bottom: 0px;
+}
+
+.bottom_link {
+  padding-top: 0px;
+  font-weight: 600;
+}
+
+.bottom_link_a {
+  color: inherit !important;
+}
+
+.footer {
+  padding: 1em !important;
+}
+
+.masthead_heading {
+  max-width: 800px !important;
+}
+
+.masthead_sub {
+  max-width: 600px !important;
+}
+
+.illustration {
+  padding: 5em 0em !important;
+}
+
+
+@media (min-width: 768px) {
+  .section {
+    padding: 10em 4em !important;
+  }
+  .right_arrow {
+    display: inline-block !important;
+    visibility: initial;
+  }
+  .down_arrow {
+    display: none !important;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 5em 1em !important;
+  }  
+  .right_arrow {
+    display: none !important;
+    visibility: hidden;
+  }
+  .down_arrow {
+    display: inline-block !important;
+    visibility: initial;
+  }
+}
+
+.inline_code, .code_block {
+  background-color: #34333817;
+  border-radius: 3px;
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 90%;
+}
+
+.inline_code {
+  padding: 2px 4px;
+}
+
+.code_block {
+  padding: 4px 8px;
+}
