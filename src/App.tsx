@@ -17,17 +17,11 @@ class App extends React.Component {
             </Header>
           </Container>
           <Container className="section first section_container">
-            <Grid>
-              <Grid.Column width={12}>
-                <Header as="h1" inverted={true}>
-                  Transcribe your audio into phonemes with an intuitive graphical tool that leverages the power of machine learning.
-                </Header>
-              </Grid.Column>
-              <Grid.Column width={10}>
-                <p>Persephone is a powerful open source toolkit for streamlining audio transcription processes.</p>
-                <p>Persephone is used by linguists in leading research institutions around the world, including North America, Europe, and the Asia-Pacific region. The tool saves these teams hundreds of hours of work every year by automating the laborous process of transcribing audio recordings.</p>
-              </Grid.Column>
-            </Grid>
+            <Header as="h1" inverted={true} className="masthead_heading">
+              Transcribe your audio into phonemes with an intuitive graphical tool that leverages the power of machine learning.
+            </Header>
+            <p className="masthead_sub">Persephone is a powerful open source toolkit for streamlining audio transcription processes.</p>
+            <p className="masthead_sub">Persephone is used by linguists in leading research institutions around the world, including North America, Europe, and the Asia-Pacific region. The tool saves these teams hundreds of hours of work every year by automating the laborous process of transcribing audio recordings.</p>
           </Container>
         </Segment>
         <Segment vertical={true} textAlign="center" className="section">

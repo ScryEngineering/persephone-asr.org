@@ -53,3 +53,11 @@
 .footer {
   padding: 1em !important;
 }
+
+.masthead_heading {
+  max-width: 800px !important;
+}
+
+.masthead_sub {
+  max-width: 600px !important;
+}
