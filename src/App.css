@@ -19,10 +19,6 @@
   min-height: 80vh;
 }
 
-.section {
-  padding: 10em 4em !important;
-}
-
 .section_container {
   max-width: 1200px;
 }
@@ -68,6 +64,9 @@
 
 
 @media (min-width: 768px) {
+  .section {
+    padding: 10em 4em !important;
+  }
   .right_arrow {
     display: inline-block !important;
     visibility: initial;
@@ -79,6 +78,9 @@
 }
 
 @media (max-width: 768px) {
+  .section {
+    padding: 5em 1em !important;
+  }  
   .right_arrow {
     display: none !important;
     visibility: hidden;
