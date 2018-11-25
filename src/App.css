@@ -61,3 +61,30 @@
 .masthead_sub {
   max-width: 600px !important;
 }
+
+.illustration {
+  padding: 5em 0em !important;
+}
+
+
+@media (min-width: 768px) {
+  .right_arrow {
+    display: inline-block !important;
+    visibility: initial;
+  }
+  .down_arrow {
+    display: none !important;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .right_arrow {
+    display: none !important;
+    visibility: hidden;
+  }
+  .down_arrow {
+    display: inline-block !important;
+    visibility: initial;
+  }
+}
