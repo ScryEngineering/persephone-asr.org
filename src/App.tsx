@@ -132,7 +132,7 @@ class App extends React.Component {
               &copy; 2018 The Persephone Authors
             </Grid.Column>
             <Grid.Column floated="right" width="8" textAlign="right">
-              The Persephone Suite is proudly supported by Custom Programming Solutions Pty Ltd
+              The Persephone Suite is proudly supported by <a href="https://www.customprogrammingsolutions.com/">Custom Programming Solutions Pty Ltd</a>
             </Grid.Column>
           </Grid>
         </Segment>
