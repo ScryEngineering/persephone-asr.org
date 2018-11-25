@@ -100,28 +100,28 @@ class App extends React.Component {
                   <Header as="h3">Community</Header>
                   <p>Join the Persephone users’ community on our official mailing lists, for community support and announcements!</p>
                 </Container>
-                <Container textAlign="right" className="bottom_link">To mailing lists <Icon name="arrow circle right" /></Container>
+                <Container textAlign="right" className="bottom_link"><a href="https://lists.persephone-asr.org/" className="bottom_link_a">To mailing lists <Icon name="arrow circle right" /></a></Container>
               </Grid.Column>
               <Grid.Column>
                 <Container className="bottom_card">
                   <Header as="h3">Code</Header>
                   <p>Persephone is Open Source. All code for the Persephone suite is hosted on GitHub.</p>
                 </Container>
-                <Container textAlign="right" className="bottom_link">To GitHub <Icon name="arrow circle right" /></Container>
+                <Container textAlign="right" className="bottom_link"><a href="https://github.com/persephone-tools/" className="bottom_link_a">To GitHub <Icon name="arrow circle right" /></a></Container>
                 </Grid.Column>
               <Grid.Column>
                 <Container className="bottom_card">
                   <Header as="h3">Documentation</Header>
                   <p>Persephone documentation is hosted on Read the Docs.</p>
                 </Container>
-                <Container textAlign="right" className="bottom_link">Read the Docs <Icon name="arrow circle right" /></Container>
+                <Container textAlign="right" className="bottom_link"><a href="https://persephone.readthedocs.io/" className="bottom_link_a">Read the Docs <Icon name="arrow circle right" /></a></Container>
                 </Grid.Column>
               <Grid.Column>
                 <Container className="bottom_card">
                   <Header as="h3">Support</Header>
                   <p>Custom Programming Solutions provides commercial support to users of the Persephone library.</p>
                 </Container>
-                <Container textAlign="right" className="bottom_link">Get support <Icon name="arrow circle right" /></Container>
+                <Container textAlign="right" className="bottom_link"><a href="https://www.customprogrammingsolutions.com/" className="bottom_link_a">Get support <Icon name="arrow circle right" /></a></Container>
                 </Grid.Column>
             </Grid>
           </Container>

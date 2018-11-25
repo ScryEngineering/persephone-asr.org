@@ -46,6 +46,10 @@
   font-weight: 600;
 }
 
+.bottom_link_a {
+  color: inherit !important;
+}
+
 .footer {
   padding: 1em !important;
 }
