@@ -39,18 +39,6 @@ class App extends React.Component {
             </Grid>
           </Container>
         </Segment>
-        <Segment vertical={true} textAlign="center" className="section">
-          <Container className="section_container">
-            <Header as="h2" className="section_header">Trusted by leading research institutions around the world</Header>
-            <Image.Group size="small">
-              <Image fluid={true} src="/img/unimelb_logo.jpg" />
-              <Image fluid={true} src="/img/anu_logo.jpg" />
-              <Image fluid={true} src="/img/cmu_logo.jpg" />
-              <Image fluid={true} src="/img/cnrs_logo.jpg" />
-              <Image fluid={true} src="/img/uq_logo.jpg" />
-            </Image.Group>
-          </Container>
-        </Segment>
         <Segment textAlign="center" vertical={true} className="section background vinyl" inverted={true}>
           <Container className="section_container">
             <Header as="h2" className="section_header" inverted={true}>An intuitive, streamlined process</Header>
