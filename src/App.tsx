@@ -21,7 +21,10 @@ class App extends React.Component {
               Transcribe your audio into phonemes with an intuitive graphical tool that leverages the power of machine learning.
             </Header>
             <p className="masthead_sub">Persephone is a powerful open source toolkit for streamlining audio transcription processes.</p>
-            <p className="masthead_sub">Persephone is used by linguists in leading research institutions around the world, including North America, Europe, and the Asia-Pacific region. The tool saves these teams hundreds of hours of work every year by automating the laborous process of transcribing audio recordings.</p>
+            <p className="masthead_sub">
+              Persephone is used by linguists in leading research institutions around the world, including North America, Europe, and the Asia-Pacific region.
+              The tool allows these teams to automate the laborious process of transcribing audio recordings.
+            </p>
             <Grid stackable={true} centered={true} columns="3" className="illustration">
               <Grid.Column textAlign="center">
                 <Image src="/img/white-waveform.png" />
@@ -34,18 +37,6 @@ class App extends React.Component {
                 <Image src="/img/persephone.png" />
               </Grid.Column>
             </Grid>
-          </Container>
-        </Segment>
-        <Segment vertical={true} textAlign="center" className="section">
-          <Container className="section_container">
-            <Header as="h2" className="section_header">Trusted by leading research institutions around the world</Header>
-            <Image.Group size="small">
-              <Image fluid={true} src="/img/unimelb_logo.jpg" />
-              <Image fluid={true} src="/img/anu_logo.jpg" />
-              <Image fluid={true} src="/img/cmu_logo.jpg" />
-              <Image fluid={true} src="/img/cnrs_logo.jpg" />
-              <Image fluid={true} src="/img/uq_logo.jpg" />
-            </Image.Group>
           </Container>
         </Segment>
         <Segment textAlign="center" vertical={true} className="section background vinyl" inverted={true}>
